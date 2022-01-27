@@ -45,6 +45,8 @@ class NextSmsController extends Controller{
         $delivery_report= $sms->getAllSmsDeliveryreports();
         return $delivery_report;
     }
+
+
     public function delivery_report_by_date_range(){
         //Get delivery report by using date range
         //Date format is yyyy-mm-dd
