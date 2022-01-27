@@ -20,6 +20,11 @@ To run this project, you will need to add the following environment variables to
 
 `NEXT_SMS_SENDER_ID=N-SMS`
 
+## Publish the required  file
+
+```bash
+  php artisan vendor:publish --provider="Filbertmsaki\Nextsms\NextSmsServiceProvider"
+```
 
 ## Usage
 
