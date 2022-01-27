@@ -1,6 +1,6 @@
 {
     "name": "filbertmsaki/nextsms",
-    "description": "Package to send message to the users using Next-SMS Api",
+    "description": "Package to send message to the users using Next-SMS with Laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
