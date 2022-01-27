@@ -36,6 +36,7 @@ class NextSms {
             return $datafile;
     
     }
+    
     public function sendMultipleSms($toArray,$message){
         
         $curl = curl_init();
@@ -62,6 +63,7 @@ class NextSms {
 
         return $datafile;
     }
+
     public function getSmsBalance(){
         $curl = curl_init();
         curl_setopt_array($curl, array(
@@ -85,6 +87,7 @@ class NextSms {
         curl_close($curl);
         return $datafile;
     }
+
     public function getSingleSmsDeliveryReport($messageId){
         $curl = curl_init();
         curl_setopt_array($curl, array(
@@ -108,6 +111,7 @@ class NextSms {
         curl_close($curl);
         return $datafile;
     }
+
     public function getAllSmsDeliveryreports(){
         $curl = curl_init();
         curl_setopt_array($curl, array(
